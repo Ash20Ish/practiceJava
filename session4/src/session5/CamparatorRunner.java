@@ -1,5 +1,9 @@
 package session5;
 
+/*
+ * This class executes Comparevlaue methods to provide greatest and lowest values
+ */
+
 public class CamparatorRunner {
 
 	public static void main(String[] args) {

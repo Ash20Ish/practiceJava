@@ -1,5 +1,9 @@
 package session4;
 
+/*
+ * This class will execute all calculating methods of calculator class
+ */
+
 public class CalculatorRunner {
 
 	public static void main(String[] args) {

@@ -1,5 +1,9 @@
 package session5;
 
+/*
+ * This class contains different methods to get the greatest and lowest numbers among five numbers or multiple numbers
+ */
+
 public class CompareValue {
 	int h;
 

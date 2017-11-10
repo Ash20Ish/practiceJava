@@ -1,5 +1,9 @@
 package session4;
 
+/*
+ * This class contains calculating methods.
+ */
+
 public class Calculator {
 
 	public int add(int i, int j) {
