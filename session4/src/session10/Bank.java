@@ -9,4 +9,8 @@ public class Bank {
 	public void deposit(){
 		System.out.println("This is the deposit protocol from bank");
 	}
+	
+	public String associatedTo(){
+		return "Bank";
+	}
 }

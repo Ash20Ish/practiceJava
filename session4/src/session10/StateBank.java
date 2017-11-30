@@ -9,4 +9,8 @@ public class StateBank extends Bank{
 	public void fixedDeposit(){
 		System.out.println("State Bank provides 10% on your FD");
 	}
+	
+	public String associatedTo(){
+		return "State Bank";
+	}
 }
