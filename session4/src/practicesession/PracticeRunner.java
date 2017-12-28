@@ -4,7 +4,7 @@ public class PracticeRunner {
 
 	public static void main(String[] args) {
 		int[] nums = {12,32,33,45,58,3,5,6,8,10,55};
-		String[] names = {"ashish","mitula","tisha","priyanshi","prabhakar"};
+		String[] names = {"ashish","mitula","tisha","priyanshi","prabhakar","ashishpatel"};
 		int[][][] elements = {{{12,1,3},{31,41,23}},{{34,54,67},{45,52,78}},{{67,89,94},{77,34,86}}};
 				
 		int total = Practice.sumOfArray(nums);
