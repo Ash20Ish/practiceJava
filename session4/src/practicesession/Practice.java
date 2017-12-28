@@ -1,5 +1,7 @@
 package practicesession;
 
+import java.math.BigDecimal;
+
 public class Practice {
 
 	private static int temp;
@@ -79,5 +81,32 @@ public class Practice {
 				}
 			}
 	
+			
+			//Add Method to add two integers
+			public static int add(int a, int b){
+				System.out.println("Using add method for two integer arguments "+a+" & "+b);
+				return a+b;
+			}
+			
+			//Over loaded Add Method to add three integers
+			public static int add(int a, int b, int c){
+				System.out.println("Using overloaded add method for three integer arguments "+a+", "+b+" & "+c);
+				return a+b+c;
+			}
+			
+			//Over loaded Add Method to add four integers
+			public static int add(int a, int b, int c, int d){
+				System.out.println("Using overloaded add method for four integer arguments "+a+", "+b+", "+c+" & "+d);
+				return a+b+c+d;
+			}
+			
+			//Area Method using final keyword to calculate area of circle
+			public static final void areaCircle(double a){
+				final double PI = 3.14;
+				double area = PI*a*a;
+				BigDecimal bigDecimal = new BigDecimal(area);
+		        BigDecimal roundedWithScale = bigDecimal.setScale(4, BigDecimal.ROUND_HALF_UP);
+				System.out.println("Area of a Circle with a radius of "+a+ " units : "+ roundedWithScale);	
+			}
 
 }

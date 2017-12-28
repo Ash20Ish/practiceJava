@@ -26,11 +26,21 @@ public class PracticeRunner {
 		System.out.println("Print Student Array using enhanced for loop");
 		System.out.println("***********************************************");
 		Practice.prntStudents(studs);
-		
-		
-		
-		
-
+		System.out.println("Over loaded add methods to add integers");
+		System.out.println("***********************************************");
+		System.out.println("Sum of Two integers : " + Practice.add(4,5));
+		System.out.println("Sum of Three integers : " + Practice.add(4,5,6));
+		System.out.println("Sum of Four integers : " + Practice.add(4,5,6,7));
+		System.out.println("Area of a Circle");
+		System.out.println("***********************************************");
+		Practice.areaCircle(3);
+		System.out.println("***********************************************");
+		System.out.println("Ref of Interface Calc and Object of Implementing Calculator Class");
+		System.out.println("***********************************************");
+		Calc cal = new Calculator();
+		System.out.println("Add Method from Calculator Class : "+cal.add(4,3));
+		System.out.println("Default Mul Method from Calc Interface : "+cal.mul(4,3));
+		System.out.println("Default Sub method from Calc Interface : "+cal.sub(4,3));
 	}
 
 }
